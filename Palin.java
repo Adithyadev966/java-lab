@@ -10,15 +10,15 @@ import java.io.*;
   		 
   		  String OG=str.toLowerCase();  //convetrs the string to lower case.
   		     String rev="";
-  		    for(int i=OG.length()-1;i>=0;i--){
-  		    	rev=rev+OG.charAt(i);
-  		     }
+  		 for(int i=OG.length()-1;i>=0;i--){
+  		 	rev=rev+OG.charAt(i);
+  		   }
   		   if(rev.equals(OG))
   		   {
-  		   	System.out.println(str+" is a PALINDROME");
+  	System.out.println(str+" is a PALINDROME");
   		   	}
   		   else
   		   {
-  		   	System.out.println(str+" is not a PALINDROME");
+  	System.out.println(str+" is not a PALINDROME");
   	 }
   	 }}
